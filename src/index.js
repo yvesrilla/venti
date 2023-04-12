@@ -1,5 +1,5 @@
-const {config} = from('dotenv')
-const {Client} = from('discord.js');
+const {config} = require('dotenv')
+const {Client} = require('discord.js');
 
 config();
 
